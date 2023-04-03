@@ -1,0 +1,5 @@
+Описание исправления ошибки при запуске приложения.
+
+При запуске приложения Flaskex возникла ошибка: "AttributeError: module 'wtforms.validators' has no attribute 'Required'".
+Данная ошибка была исправлена путем изменения строки 7 и 8 файла forms.py в папке scripts, а именно [validators.Required() на [validators.DataRequired().
+
