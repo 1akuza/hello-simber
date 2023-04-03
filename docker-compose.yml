@@ -1,0 +1,9 @@
+version: '3.3'
+
+services:
+  flask_web:
+    container_name: flask2
+    build: .
+    ports:
+      - 5000:5000
+    restart: unless-stopped
